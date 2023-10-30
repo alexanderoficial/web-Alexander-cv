@@ -1,0 +1,106 @@
+.contacto-section {
+    background-color: #556dff;
+    color: yellow;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.contacto-titulo h2 {
+    font-size: 24px;
+    color: red;
+}
+
+.contacto-informacion {
+    margin-top: 20px;
+}
+
+.contacto-informacion p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contacto-formulario {
+    margin-top: 30px;
+    position: relative;
+}
+
+.contacto-formulario h3 {
+    font-size: 20px;
+    color: red;
+}
+
+.campo-entrada {
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.campo-entrada label {
+    display: block;
+    font-size: 18px;
+}
+
+.campo-entrada input{
+    position: relative;
+    top: 90%;
+}
+.campo-entrada textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#boton-enviarr{
+    background-color: red; /* Color verde oscuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+.boton-enviar:hover {
+    background-color: #006400; /* Color verde oscuro más oscuro al pasar el mouse */
+}
+#correo{
+    height: 50px;
+    width: 200px;
+    
+}
+#correoo{
+   
+}
+#mensaje{
+    
+}
+.arribaverdadero{
+    position: relative;
+    padding: 8px;
+    text-align: center;
+    
+    
+    
+}
+.arribaverdadero a{
+    text-decoration: none;
+    padding: 10px;
+}
+.arribaverdadero button{
+    text-decoration: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #00ffff;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.arribaverdadero button:hover{
+    background: #00eaff;
+}

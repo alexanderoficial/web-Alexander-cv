@@ -1,0 +1,235 @@
+
+.svegee{
+    animation: moverAbajo 3s ease infinite;
+}
+.svegee{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 850px;
+    top: 380px;
+}
+
+.contacto-container a{
+    text-decoration: none;
+    border: none;
+}
+.contacto-container img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+.contacto-container img:hover{
+    background: #0018ff;
+    border-radius: 10px;
+    position: relative;
+}
+.experienciauno{
+    color: #00eaff;
+    text-align: center;
+    position: relative;
+}
+.soportetec{
+    position: relative;
+    left: 5px;
+}
+.avisstur{
+    color: #00eaff;
+    position: relative;
+    left: 10px;
+}
+.contactodos{
+    padding: 20px;
+    border-radius: 30px;
+    width: 550px;
+    height: 360px;
+    position: fixed;
+    top: 100px;
+    background: white;
+    left: 350px;
+    display: flex;
+    
+}
+.dewasapazul{
+    width: 100px;
+    height: 30px;
+    background: #00ff03;
+    border-radius: 70px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    text-decoration: none;
+    border: 3px solid white;
+}
+.deinstaazul{
+    width: 100px;
+    height: 30px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) ;
+    border-radius: 70px;
+    position: relative;
+    left: 150px;
+    border: 3px solid white;
+}
+.deinstaazul a{
+    text-decoration: none;
+    border: none;
+    color: #000000;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.dewasapazul a{
+    text-decoration: none;
+    border: none;
+     color:#000000 ;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.dewasapazul:hover{
+    background: #00eaff;
+}
+.deinstaazul:hover{
+    background: #00eaff;
+}
+.contactoazul{
+    padding: 5px;
+    border-radius: 30px;
+    width: 550px;
+    height: 390px;
+    position: fixed;
+    top: 100px;
+    background-image: radial-gradient(circle at 43.84% 120.44%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+    left: 60px;
+}
+.blogcontainer{
+    padding: 5px;
+    border-radius: 30px;
+    width: 550px;
+    height: 390px;
+    position: fixed;
+    top: 100px;
+    background: url('../imagenes/fondoo.jpg');
+    background-size: cover;
+    left: 350px;
+    display: flex;
+    
+}
+.dewasaprosa{
+    width: 100px;
+    height: 30px;
+    background: #00ff03;
+    border-radius: 70px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    text-decoration: none;
+    border: 3px solid white;
+}
+.deinstarosa{
+    width: 100px;
+    height: 30px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) ;
+    border-radius: 70px;
+    position: relative;
+    left: 150px;
+    border: 3px solid white;
+}
+.deinstarosa a{
+    text-decoration: none;
+    border: none;
+    color: #000000;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.dewasaprosa a{
+    text-decoration: none;
+    border: none;
+     color:#000000 ;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.dewasaprosa:hover{
+    background: #00eaff;
+}
+.deinstarosa:hover{
+    background: #00eaff;
+}
+.blogrosa{
+    padding: 5px;
+    border-radius: 30px;
+    width: 550px;
+    height: 390px;
+    position: fixed;
+    top: 100px;
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
+    left: 60px;
+}
+/* Estilos generales para el formulario de inicio de sesión */
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 350px;
+    background: transparent;
+    position: relative;
+    top: -80px;
+    left: 70px;
+    border: 1px solid #00eaff;
+    border-radius: 10px;
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #00eaff;
+}
+
+.login-input {
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: #00eaff;
+    
+}
+
+.login-button {
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 13px;
+}
+
+.login-button:hover {
+    background: #11ff00;
+    color: white;
+}
+.paraver{
+    color: #00eaff;
+    font-size: 14px;
+}
