@@ -441,6 +441,9 @@
 #modal{
   display: none;
 }
+ #alertaa{
+   display: none;
+   }
 
 /* modo android */
 
