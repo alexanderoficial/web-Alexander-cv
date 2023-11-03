@@ -1,0 +1,340 @@
+/* Estilos para dispositivos Android */
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 16px;
+        
+    }
+    .circles{
+       z-index: -2;
+    }
+    .titulo{
+        position: relative;
+        top: 0;
+        left: -220px;
+        font-size: 5px;
+        display: flex;
+        padding: 10px;
+    }
+    .tituloss{
+        width: 60px;
+        height: 20px;
+        font-size: 05px;
+        
+    }
+    .titulosss{
+        width: 60px;
+        height: 20px;
+       font-size: 5px;
+    }
+    
+    .cuadro-principal{
+        width: 280px;
+        height: auto;
+    }
+    .cuadro-principaldos{
+        display: none;
+    }
+    .autor{
+        position: relative;
+        top: 500px;
+        left: 10px;
+        text-align: center;
+      
+    }
+    .cuadro-botones{
+    
+        position: fixed;
+        left: -20px;
+        background: transparent;
+    }
+.cuadro-botones img{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+ #modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+#modal img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 201;
+    
+}
+.modalmodal{
+    width: 30px;
+    height: 30px;
+}
+
+#cerrarmodal {
+    background: red;
+    color: white;
+    position: relative;
+    top: 68%;
+    left: 10px;
+    right: 20px;
+    width: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+    z-index: 2002;
+  
+}
+
+   
+    
+    
+    
+}
+
+/* Estilos para tabletas */
+@media screen and (max-width: 780px) {
+    body{
+        font-size: 18px;
+    }
+    
+    
+ #modal{
+   display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 90;
+}
+
+#modal img {
+    position: relative;
+    top: 150px;
+    left: 12%;
+    height: 350px;
+    width: 500px;
+    z-index: 91;
+}
+
+#cerrarmodal {
+    background: red;
+    color: white;
+    position: relative;
+    top: 9%;
+    left: 43%;
+    right: 20px;
+    width: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+    border-radius: 20px;
+    z-index: 92;
+}
+#cerrarmodal h2{
+   position: relative;
+   left: 5px;
+}
+
+    .circles{
+      z-index: -3; 
+    }
+    .titulo{
+        position: relative;
+        top: 0;
+        left: -150px;
+        font-size: 5px;
+        display: flex;
+        padding: 10px;
+    }
+    .tituloss{
+        width: auto;
+        height: 20px;
+        font-size: 05px;
+        
+    }
+    .titulosss{
+        width: auto;
+        height: 20px;
+       font-size: 5px;
+    }
+   .titulo button{
+     position: relative;
+     color: white;
+     font-size: 10px;
+     height: 25px;
+     width: auto;
+     background: transparent;
+   } 
+   #cvcv{
+     position: relative;
+     font-size: 10px;
+     height: 25px;
+     width: auto;
+     left: 7px;
+   }
+   #plata{
+     position: relative;
+     height: 25px;
+     width: 61px;
+     background: transparent;
+     left: -4px;
+     top: -8px;
+   }
+   .titulosssocultos{
+     position: relative;
+     height: 20px;
+     background: transparent;
+   }
+    .cuadro-principal{
+        width: 280px;
+        height: auto;
+        position: relative;
+        top: 55px;
+        left: 30%;
+        border-radius: 10px;
+    }
+    .cuadro-principaldos{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 400px;
+        top: 50px;
+        left: 0;
+        
+    }
+    #alexander{
+      text-align: center;
+      justify-content: center;
+      text-align-last: center;
+    }
+    #palabras-container{
+      position: relative;
+      top: 0;
+      left: 12%;
+    }
+    .autor{
+        position: relative;
+        top: 55px;
+        left: 80px;
+        text-align: center;
+        display: none;
+        
+        
+      
+    }
+    .cuadro-botones{
+      position: fixed;
+      top: 50px;
+      left: 10px;
+      height: 460px;
+      width: auto;
+      background: transparent;
+    }
+    .botones{
+      position: relative;
+      margin-bottom: 10Px;
+       
+    }
+   .cuadro-botones img{
+     margin-bottom: 40px;
+     display:block;
+     height: 40px;
+     width: 40px;
+     position: relative;
+     top: 0;
+     left: 10px;
+     
+     
+   }
+   .texto-oculto{
+     display: block;
+     position: relative;
+     color: black;
+     left: -10px;
+     top: -38px;
+   }
+  .web{
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .proyectos-oculto{
+    position: relative;
+    width: 80px;
+    height: 20px;
+    top: 0;
+    left: -120px;
+  }
+  .descargar-cv{
+    position: relative;
+    width: 110px;
+    height: 20px;
+    top: -21px;
+    left: -240px;
+  }
+  .descargar-cv p{
+    position: relative;
+    font-size: 14px;
+  }
+  .proyectos-oculto p{
+    position: relative;
+    font-size: 14px;
+  }
+  .estudiosnegro{
+    position: relative;
+    left: 30%;
+    top: 65px;
+    height: auto;
+    width: 280px;
+    border-radius: 20px;
+    
+  }
+  .estudios{
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+  .experienciaverde{
+    display: none;
+    
+  }
+  #estudios{
+    position: relative;
+    top: 450px;
+    left: 0;
+    
+  }
+  .blogrosa{
+    display: none;
+  }
+  .blogcontainer{
+    position: relative;
+    top: 0;
+    left: 14%;
+  }
+  .contactoazul{
+    display: none;
+    
+  }
+  .contactodos{
+    position: relative;
+    top: 0;
+    left: 17%
+  }
+ #modal{
+   display: block;
+ }
+}
