@@ -337,4 +337,11 @@
  #modal{
    display: block;
  }
+     #alertaa{
+   display: block;
+   position: absolute;
+   font-size: 14px;
+   top: 60px;
+   left: 15%;
+ }
 }
